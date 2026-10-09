@@ -1,5 +1,11 @@
 # Changelog
 
+## 58.0.4
+
+### Patch Changes
+
+- [iOS] Fix `uses24hourClock` reporting a 24-hour clock for locales whose 12-hour time pattern marks the period with `B` instead of `a`, such as `zh-Hant-TW` and `hi-IN`. ([#51244](https://github.com/expo/expo/pull/51244) by [@MoogyG](https://github.com/MoogyG))
+
 ## 58.0.3
 
 ### Patch Changes
